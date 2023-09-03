@@ -1,0 +1,60 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+}
+
+.container {
+  margin-top: 10vh;
+  text-align: center;
+  background-color: #8395a7;
+  min-height: 500px;
+  width: 350px;
+  overflow: auto;
+  border-radius: 5px;
+}
+
+.delBtn {
+  margin-left: 15px;
+  color: white;
+  background-color: #c8d6e5;
+  border-radius: 5px;
+  border-style: none;
+}
+
+.listItems {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+  background-color: #c8d6e5;
+  width: max-content;
+  border-radius: 5px;
+}
+
+li {
+  padding: 3px;
+  min-width: 10vw;
+}
+
+ul {
+  margin-left: 26px;
+  list-style-type: none;
+}
+
+.inputBar {
+  box-sizing: border-box;
+  height: 30px;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.addBtn {
+  height: 30px;
+  margin: 5px;
+  background-color: #c8d6e5;
+  color: black;
+  border-radius: 5px;
+  font-weight: bold;
+}
